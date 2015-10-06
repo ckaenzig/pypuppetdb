@@ -415,7 +415,7 @@ class Node(object):
 
     def reports(self):
         """Get all reports for this node."""
-        return self.__api.reports(self.__query_scope)
+        return self.__api.reports(query=self.__query_scope)
 
 
 class Catalog(object):
